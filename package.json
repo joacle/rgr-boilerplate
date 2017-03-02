@@ -1,7 +1,7 @@
 {
-  "name": "rgr-boilerplate",
-  "version": "1.0.0",
-  "description": "Boilerplate with Webpack, React, Relay and GraphQL",
+  "name": "my-boardgames",
+  "version": "0.1.0",
+  "description": "Application to mantain a list of your own boardgames",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joacle/rgr-boilerplate.git"
+    "url": "git+https://github.com/joacle/my-boardgames.git"
   },
   "author": "Joacle",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/joacle/rgr-boilerplate/issues"
+    "url": "https://github.com/joacle/my-boardgames/issues"
   },
-  "homepage": "https://github.com/joacle/rgr-boilerplate#readme",
+  "homepage": "https://github.com/joacle/my-boardgames#readme",
   "dependencies": {
     "babel-preset-stage-0": "^6.22.0",
     "babel-relay-plugin": "^0.11.0",
