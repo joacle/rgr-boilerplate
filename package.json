@@ -1,0 +1,45 @@
+{
+  "name": "rgr-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate with Webpack, React, Relay and GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node server.js --presets es2015,stage-0,stage-2",
+    "auto-start": "nodemon --exec \"npm start\" --ignore data/schema.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joacle/rgr-boilerplate.git"
+  },
+  "author": "Joacle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joacle/rgr-boilerplate/issues"
+  },
+  "homepage": "https://github.com/joacle/rgr-boilerplate#readme",
+  "dependencies": {
+    "babel-preset-stage-0": "^6.22.0",
+    "babel-relay-plugin": "^0.11.0",
+    "events": "^1.1.1",
+    "express": "^4.14.1",
+    "express-graphql": "^0.6.3",
+    "graphql": "^0.9.1",
+    "graphql-relay": "^0.5.1",
+    "kerberos": "0.0.22",
+    "lodash": "^4.17.4",
+    "moment": "^2.17.1",
+    "mongodb": "^2.2.24",
+    "react-relay": "^0.10.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-loader": "^6.3.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "webpack": "^2.2.1"
+  }
+}

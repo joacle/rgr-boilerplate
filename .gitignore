@@ -1,0 +1,9 @@
+# dependencies
+/node_modules
+public/bundle.js
+
+# logs
+*.log*
+
+# outputs
+*.min.*
